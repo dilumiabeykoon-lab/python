@@ -12,10 +12,16 @@ c=5            #  0101
 d=3            # &0011
 print(c&d)     #  0001 <-----Convert to decimal(The decimal value is the output)
 
+#BitWise |(OR)
 print(c|d)     #   0101
                #  |0011
                #   0111<-----Convert to decimal(The decimal value is the output)
 
+#BitWise ^(XOR)
 print(c^d)     #   0101
                #  ^0011
                #   0110<-----Convert to decimal(The decimal value is the output)
+
+#BitWise ~(NOT)
+print(~5)
+print(~-8)
